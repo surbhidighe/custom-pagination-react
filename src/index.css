@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.postlist_div h1, .postlist_div h2{
+  text-align: center;
+  margin: 3% 0;
+}
+
+.post_div{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+
+.post_card{
+  background-color: antiquewhite;
+  padding: 1%;
+  margin: 1%;
+  width: 20%;
+}
+
+.pagination_div{
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+}
+
+.pagination_div p{
+  padding: 1%;
+  cursor: pointer;
+}
+
+.active_pagenumber{
+  background-color: dodgerblue;
+  color: white;
+}
